@@ -22,9 +22,11 @@ Import the component you need (you can find them [here](https://diagrams.mingram
 This is the same as the following in [`diagrams`](https://github.com/mingrammer/diagrams):
 
     from diagrams.programming.language import Go
+    
     Go("app")
 
-<sup>[1]</sup> As far as I know, importing remote templates is not supported by G2.
+<sup>[1]</sup> Importing remote templates is not supported by G2 yet. 
+You can follow this issue [here](https://github.com/terrastruct/d2/issues/1563).
 
 ## Running it yourself
 
